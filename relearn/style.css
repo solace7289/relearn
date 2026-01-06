@@ -67,8 +67,37 @@ body {
 }
 
 
+.input-box {
+    display: flex;
+    max-width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    /* margin: 20px; */
+    border-radius: 20px;
+    /* background: #40414f; */
 
+}
 
+.input-box input {
+    border: none;
+    padding: 20px;
+    flex: 1;
+    color: #fff;
+    background: #343541;
+}
+
+.input-box button {
+    padding: 10px 30px 10px 30px;
+    margin: 20px;
+    /* background-color: aquamarine; */
+    /* color: #fff; */
+    cursor: pointer;
+    border-radius: 10px; 
+    background: #19c37d;
+    border: none;
+    color: #000;
+}
 
 
 
